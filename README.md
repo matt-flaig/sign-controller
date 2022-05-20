@@ -1,5 +1,8 @@
 ## The Software
 
+<img src="https://mattflaig.com/_next/image?url=https%3A%2F%2Fsuper-static-assets.s3.amazonaws.com%2F6f4ff171-2557-43c3-9f23-eaab086538ac%2Fimages%2F09e4e7a9-1efe-4a17-bd95-3a3a691ffda2.gif&w=3840&q=80" alt="Sign Controller Demo GIF" >
+
+
 A custom web-app allowing users to easily select key parts of the logo and choose colors from a color picker. The software then provides a hardware agnostic API to write data to any standard DMX node (via ART-NET) or any CueServer (via binarybuffer).
 
 ---
