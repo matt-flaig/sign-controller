@@ -1,6 +1,6 @@
 ## The Software
 
-A custom web-app allowing users to easily select key parts of the logo and choose colors from a color picker. The software then provides a hardware agnostic API to write data to any standard DMX controller via ART-NET or any CueServer via binarybuffer.
+A custom web-app allowing users to easily select key parts of the logo and choose colors from a color picker. The software then provides a hardware agnostic API to write data to any standard DMX node (via ART-NET) or any CueServer (via binarybuffer).
 
 ---
 
