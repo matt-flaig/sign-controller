@@ -28,7 +28,7 @@
         }
     
         try{
-            $channelCount = 1; //dmx universes start at channel one!!!
+            $channelCount = 1; // dmx universes start at channel one
             $dmxChannelValues = [];
             $dmxData = [];
             foreach($dmx as $fixture){
@@ -49,7 +49,7 @@
         }
         
         try{
-            $channelCount = 1; //dmx universes start at channel one!!!
+            $channelCount = 1; // dmx universes start at channel one
             $dmxChannelValues = [];
             $dmxData = [];
             foreach($presets[$data["currentPreset"]] as $fixture){
@@ -63,25 +63,14 @@
             exit(json_encode("invalid_request"));
         }
     
-        // loop through provided presets
-        // update json file
-        // update art-net device
+        // todo:    loop through provided presets
+        //          update json file
+        //          update art-net device
     }
     
     
     try{
         $client = new ArtDmxClient('169.254.188.27', 6454);
-    
-    //169.254.255.255
-    
-        /*
-        ip tests
-        169.254.58.97
-        169.254.255.255
-        224.0.0.251
-        
-        **169.254.255.255**
-        */
     
         // broadcast our DMX values
         
