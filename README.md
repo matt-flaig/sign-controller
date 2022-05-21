@@ -25,3 +25,11 @@ The CueServer sends DMX (over a CAT6 cable) to the individual DMX receivers on t
 
 ### Physical Sign Fixture Addressing
 Each address in the three channel range (1-3) is the Red, Green, Blue channels respectively.
+
+---
+
+## Credits
+Pickr (https://github.com/Simonwep/pickr)
+DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
+jQuery (https://github.com/jquery/jquery)
+
