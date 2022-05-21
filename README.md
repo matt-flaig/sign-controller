@@ -32,4 +32,5 @@ Each address in the three channel range (1-3) is the Red, Green, Blue channels r
 - Pickr (https://github.com/Simonwep/pickr)
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 - jQuery (https://github.com/jquery/jquery)
+- (Optional) ls-artnet-php (https://github.com/matt-flaig/ls-artdmx-php/tree/ce69faf019e85eba9450ca567f941fcd22422101)
 
