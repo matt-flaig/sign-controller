@@ -9,7 +9,7 @@ A custom web-app allowing users to easily select key parts of the logo and choos
 
 ## The Translator
 
-Locally here, we’re using a CueServer2 Mini to act as the server and controller for the sign. It’s connected to our network on an IOT VLAN then receives data via ART-NET or http and transmits it’s over RJ45/CAT6 to the DMX RGB controllers.
+Locally here, we’re using a CueServer2 Mini to act as the server and controller for the sign. It’s connected to our network on an IoT VLAN then receives data via ART-NET or http and transmits it’s over RJ45/CAT6 to the DMX RGB controllers.
 
 ---
 
