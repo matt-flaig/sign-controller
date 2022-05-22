@@ -312,10 +312,15 @@
 		var icon = logo.filter("#Sun").add(logo.filter("#Cloud"));
 
 		logo.on("click", function() {
-			logo.removeClass("selected");
+			if(!shifted){
+				logo.removeClass("selected");
+			}
 			$(this).addClass("selected");
 			pickr.show();
 		});
+		
+		// record key states
+		$(document).on('keyup keydown', function(e){shifted = e.shiftKey} );
 
 		function toggleBlackoutState(){
 
