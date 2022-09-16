@@ -28,7 +28,7 @@ Each address in the three channel range (1-3) is the Red, Green, Blue channels r
 
 ---
 
-## Credits
+## Credits / Frameworks
 - Pickr (https://github.com/Simonwep/pickr)
 - DragSelect (https://github.com/ThibaultJanBeyer/DragSelect)
 - jQuery (https://github.com/jquery/jquery)
